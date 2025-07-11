@@ -1,5 +1,6 @@
 // Complexity: _
-// Runtime 2ms 57.1MB (Beats 75.10%)
+// Runtime 2ms (Beats 75.23%)
+// Memory: 57.15MB (Beats 41.56%)
 
 // NOT MY SOLUTION
 

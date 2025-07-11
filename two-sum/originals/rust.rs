@@ -1,5 +1,6 @@
 // Complexity: O(N^2)
-// Runtime: 12ms 2.3 MB (Beats 35.27%)
+// Runtime: 12ms (Beats 35.25%)
+// Memory: 2.3 MB (Beats 79.07%)
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let length: usize = nums.len();

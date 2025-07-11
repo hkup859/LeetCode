@@ -1,5 +1,6 @@
 // Complexity: _
-// Runtime: 0ms 56.5MB (Beats 100%)
+// Runtime: 0ms (Beats 100%)
+// Memory: 56.51MB (Beats 63.47%)
 
 function twoSum(nums: number[], target: number): number[] {
     const dict: { [key: number]: number; } = {};

@@ -1,5 +1,6 @@
 // Complexity: _
-// Runtime: 0ms 2.35 MB (Beats 100%)
+// Runtime: 0ms (Beats 100%)
+// Memory: 2.35 MB (Beats 55.49%)
 use std::collections::HashMap;
 
 impl Solution {
