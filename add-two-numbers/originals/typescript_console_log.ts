@@ -1,6 +1,5 @@
-// Got 2ms on a subsequent run (LeetCode performance metrics suck)
-// Runtime: 5ms (Beats 37.11%)
-// Memory: 62.44MB (Beats 40.80%)
+// Runtime: 170ms (Beats 5.03%)
+// Memory: 66.32MB (Beats 5.22%)
 
 /**
  * Definition for singly-linked list.
@@ -15,6 +14,7 @@
  */
 
 const unwrapListNode = (list: ListNode, currentVal = '') => {
+    console.log("LIST: ", list)
     if (list.next) {
         currentVal = unwrapListNode(list.next, currentVal)
     }
